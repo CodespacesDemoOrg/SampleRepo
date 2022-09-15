@@ -1,0 +1,47 @@
+{
+    "id": "addon1",
+    "name": "Addon1",
+    "version": "1.0.0",
+    "manifestVersion": 1,
+    "main": "ui.html",
+    "requirements": {
+        "apps": [
+            "Spice"
+        ]
+    },
+    "icon": [
+        {
+            "width": 100,
+            "height": 100,
+            "path": "icon-light.png",
+            "theme": [
+                "light"
+            ]
+        },
+        {
+            "width": 100,
+            "height": 100,
+            "path": "icon-dark.png",
+            "theme": [
+                "dark"
+            ]
+        }
+    ],
+    "entryPoints": [
+        {
+            "type": "widget",
+            "id": "addon1.entrypoint1",
+            "label": {
+                "default": "Addon1"
+            },
+            "sandbox": [
+                "allow-scripts",
+                "allow-same-origin"
+            ],
+            "defaultSize": {
+                "width": 300,
+                "height": 396
+            }
+        }
+    ]
+}
