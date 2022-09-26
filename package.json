@@ -13,7 +13,8 @@
         "widget"
     ],
     "devDependencies": {
-        "@wxp/wxp-scripts": "0.1.12",
+        "@wxp/wxp-core": "file:libs/wxp-core.tgz",
+        "@wxp/wxp-scripts": "file:libs/wxp-scripts.tgz",
         "prettier": "2.6.0"
     }
 }
